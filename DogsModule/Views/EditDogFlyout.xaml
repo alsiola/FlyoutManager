@@ -1,0 +1,20 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"    
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             mc:Ignorable="d"
+             x:Class="DogsModule.Views.EditDogFlyout"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             MinWidth="400"
+    >
+    <StackPanel Margin="20">
+        <TextBlock>Name:</TextBlock>
+        <TextBox Margin="10" Text="{Binding Dog.Name, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBlock>Breed:</TextBlock>
+        <TextBox Margin="10" Text="{Binding Dog.Breed, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBlock>Age:</TextBlock>
+        <metro:NumericUpDown Margin="10" Value="{Binding Dog.Age, UpdateSourceTrigger=PropertyChanged}" />
+    </StackPanel>
+</UserControl>

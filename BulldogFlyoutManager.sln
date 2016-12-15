@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyoutManager.Source", "FlyoutManager.Source\FlyoutManager.Source.csproj", "{6C9D478A-968D-4BBD-923A-ED455A1D2BB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example Application", "Example Application", "{FE737F47-AE55-4A8A-A8E9-A3168541349E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyoutManager.Example", "FlyoutManager.Example\FlyoutManager.Example.csproj", "{99C9E82C-C594-446D-AA59-8FFBC43AD226}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F7F9EB46-E503-4D99-874A-4E4991C98BA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{BC2E9184-F684-4C3D-8583-9B902E3FA728}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{DE774670-7893-4A37-8E19-47F35DBA2672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogsModule", "DogsModule\DogsModule.csproj", "{AB8B448C-DD74-4D60-A041-3E5D03A32180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{1C30EA77-9693-49A6-BEEB-71704CA4F7B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C9D478A-968D-4BBD-923A-ED455A1D2BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9D478A-968D-4BBD-923A-ED455A1D2BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9D478A-968D-4BBD-923A-ED455A1D2BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9D478A-968D-4BBD-923A-ED455A1D2BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C30EA77-9693-49A6-BEEB-71704CA4F7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C30EA77-9693-49A6-BEEB-71704CA4F7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C30EA77-9693-49A6-BEEB-71704CA4F7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C30EA77-9693-49A6-BEEB-71704CA4F7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226} = {FE737F47-AE55-4A8A-A8E9-A3168541349E}
+		{F7F9EB46-E503-4D99-874A-4E4991C98BA2} = {FE737F47-AE55-4A8A-A8E9-A3168541349E}
+		{BC2E9184-F684-4C3D-8583-9B902E3FA728} = {FE737F47-AE55-4A8A-A8E9-A3168541349E}
+		{DE774670-7893-4A37-8E19-47F35DBA2672} = {FE737F47-AE55-4A8A-A8E9-A3168541349E}
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180} = {F7F9EB46-E503-4D99-874A-4E4991C98BA2}
+		{1C30EA77-9693-49A6-BEEB-71704CA4F7B7} = {DE774670-7893-4A37-8E19-47F35DBA2672}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs40
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FlyoutManager.Source\\FlyoutManager.Source.csproj
+		SccProjectName1 = FlyoutManager.Source
+		SccLocalPath1 = FlyoutManager.Source
+		SccProjectUniqueName2 = FlyoutManager.Example\\FlyoutManager.Example.csproj
+		SccProjectTopLevelParentUniqueName2 = BulldogFlyoutManager.sln
+		SccProjectName2 = FlyoutManager.Example
+		SccLocalPath2 = FlyoutManager.Example
+		SccProjectUniqueName3 = DogsModule\\DogsModule.csproj
+		SccProjectTopLevelParentUniqueName3 = BulldogFlyoutManager.sln
+		SccProjectName3 = DogsModule
+		SccLocalPath3 = DogsModule
+		SccProjectUniqueName4 = Model\\Model.csproj
+		SccProjectTopLevelParentUniqueName4 = BulldogFlyoutManager.sln
+		SccProjectName4 = Model
+		SccLocalPath4 = Model
+	EndGlobalSection
+EndGlobal
